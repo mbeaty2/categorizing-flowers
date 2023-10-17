@@ -4,7 +4,7 @@ This project writes from scratch a simple neural network to categorize flowers.
 
 ## Description
 
-This project uses a dataset of flower images, labels, and category names to train a simple neural network classifying the flower images with their predicted category name. The project utilizes a flower dataset and category name dataset made available open-source via the Python for AI Udacity nanodegree program. Though, the framework of the neural network should support other types of datasets. This repository contains all necessary files to write and train your own model, as well as the weights of my trained model should you be interested in starting from there. As noted, this model is incredibly simple and only took about 3 epochs at a learning rate of 0.01 to reach a 73% accuracy rate. 
+This project uses a dataset of flower images, labels, and category names to train a simple neural network classifying the flower images with their predicted category name. The project utilizes a flower dataset and category name dataset made available open-source via the Python for AI Udacity nanodegree program. Though, the framework of the neural network should support other types of datasets. This repository contains all necessary files to write and train your own model, including the train.py, which trains a model; predict.py, which predicts flower categories; and functions.py, which holds all required functions for the other files to successfully run. As noted, this model is incredibly simple and only took about 3 epochs at a learning rate of 0.01 to reach a 73% accuracy rate. 
 
 ## Getting Started
 
@@ -12,7 +12,7 @@ This project uses a dataset of flower images, labels, and category names to trai
 
 * The foundation of this project is within tensorflow. A keras compatible engine is required.
 * This project utilized a 16GB GPU.
-* Refer to the model.py file to check software and package dependencies. 
+* Refer to the train.py file to check software and package dependencies. 
 
 ### Installing
 
